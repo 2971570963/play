@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>我的 Phaser 游戏</title>
-    <style>body { margin: 0; }</style>
+    <title>Phaser Game</title>
+    <!-- 引入 Phaser 库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
 </head>
 <body>
-    <script src="node_modules/phaser/dist/phaser.min.js"></script>
+    <!-- 游戏的 HTML 容器，如果你的 Phaser 配置中指定了父容器 -->
+    <div id="game-container"></div>
+
+    <!-- 引入你的游戏脚本，确保这行在 Phaser 库之后 -->
     <script src="game.js"></script>
 </body>
 </html>
